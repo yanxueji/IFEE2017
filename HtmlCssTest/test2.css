@@ -1,0 +1,142 @@
+body,div,img,a,ul,li,table,tr,td{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:"Microsoft Yahei";
+    background:#ccc;
+}
+.header{
+    background-color:#333333;
+    height:80px;
+}
+.header img{
+    height:50px;
+    margin:15px 20px;
+}
+.header ul{
+    float:right;
+    padding-top:29.5px;
+}
+.header ul li{
+    float:left;
+    padding-right:30px;
+}
+.header ul li a{
+    text-decoration: none;
+    color:white;
+    font-size:12px;
+}
+
+.body{
+    margin:20px;
+}
+
+.bd_sty{
+    background-color:white;
+    padding:20px;
+    margin-bottom:20px;
+    border-bottom:2px solid grey;
+    border-right:2px solid grey;
+}
+
+.grey_col{
+    color:grey;
+    font-weight:bold;
+}
+p{
+    text-indent:2em;
+    line-height:2em;
+}
+.bd_sect2 ul{
+    list-style:none;
+    padding:10px 0 20px 20px;
+}
+.bd_sect3 ul{
+    margin-left:50px;
+}
+.bd_sect3 ul li{
+    width:160px;
+    border:1px solid #ccc;
+    margin-bottom:20px;
+}
+.bd_sect3 ul li p{
+    margin-left:5px;
+    margin-bottom:0px;
+}
+
+.bd_sect4 ol{
+    color:black;
+    line-height:2em;
+}
+.bd_sect4 table{
+    width:100%;
+
+    font-size:15px;
+    border-collapse:collapse;
+}
+.bd_sect4 table tr{
+   border: 1px solid  #ccc;
+   
+}
+.bd_sect4 table td{
+    border: 1px solid  #ccc;
+    padding:5px;
+}
+.tb_head{
+    background-color:black;
+    color:white;
+}
+.tb_tail{
+    background-color:#ccc;
+    color:black;
+}
+.div_ti{
+    height:45px;
+    border-left:4px solid #ccc;
+    padding-left:10px;
+}
+.bd_sect5 div h3{
+    margin:0px;
+    padding:10px;
+}
+.bd_sect5 form{
+    padding-top:20px;
+}
+
+.bd_sect5 form label{
+    float:left; 
+    width:35%;
+    text-align:right;
+    padding-right:10px;
+}
+.bd_sect5 form p{
+    margin:0px;
+    margin-left:34%;
+    color:#aaa;
+}
+.bd_sect5 form div{
+    font-size: 14px;
+    margin:15px 0;
+}
+.bd_sect5 form textarea{
+    width:50%;
+    height:100px;
+}
+.submitButton{
+    width:100%;
+    height:50px;
+    font-size:20px;
+    background-color:blue;
+    color:white;
+    border-radius:10px;
+    border:none;
+}
+footer{
+    width:100%;
+    height:100px;
+    background-color:black;
+    color:white;
+    text-align:center;
+    line-height:100px;
+}
